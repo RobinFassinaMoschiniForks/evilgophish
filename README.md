@@ -3,6 +3,7 @@
 # Table of Contents
 
 - [evilgophish](#evilgophish)
+  * [The Kuba Gretzky Bitter Copy Syndrome](#the-kuba-gretzky-bitter-copy-syndrome)
   * [A Word About Sponsorship](#a-word-about-sponsorship)
   * [Credits](#credits)
   * [Prerequisites](#prerequisites)
@@ -32,6 +33,16 @@
 # evilgophish
 
 Combination of [evilginx3](https://github.com/kgretzky/evilginx2) and [GoPhish](https://github.com/gophish/gophish).
+
+# The Kuba Gretzky Bitter Copy Syndrome
+
+On 03/15/2024 & 03/21/2024 I presented Kuba Gretzky with a professional and formal business proposal to move the `Evilginx` project forward as `EvilGophish` to avoid competing with one another and to stop developing the projects as two separate tools. Although I have given him and Jordan Wright credit at the top of this project since the very first commit, he accused me of "copying his work", making "a few modifications" and promoting it as "my own". The tone and content of his reply to the business proposal revealed that he appeared to be bitter and upset about the success of this project. This is surprising due to the fact he released the project with an open source license and it is to be expected people will modify your work to potentially produce something better if you're not including features in high demand, such as the lack of a GUI and tracking abilities.
+
+![bitter-fingers](images/bitter-fingers.png)
+
+Roughly a week after rejecting my business proposal, he proceeded to release `Evilginx 3.3.0` titled `Go & Phish` on 04/01/2024 with a large focus of the release being his own integration with `Gophish`. My project existed for over 2 years before his attempt at a `Gophish` integration, it cannot be claimed he did not copy the idea behind this project or was unaware of its existence, as he acknowledged its existence in the screenshot above. While he may have created a different way to integrate them using his own unique code, my idea and repository were the first to achieve this integration with an open source release. To achieve tracking and a user interface, he could've developed his own user interface or tracking mechanisms. Instead, he copied the idea behind the integration included in this project by using a custom version of `Gophish` which communicates with `Evilginx`, which is exactly what this repository does and has done for over 2 years. It appears to be a spiteful move with timing that cannot be coincidental after our business proposal exchange. I am putting his message on display to show exactly the kind of person he is. We need to stop supporting people like this in the cybersecurity industry and idolizing them. People should be able to modify a popular project without such negativity and without an *attempt* to outdo such a project after becoming popular.
+
+His version of `Gophish` lacks features contained in this project such as smishing and quishing - will he copy these next? We will have to see. I do not believe his integration includes the same level of detailed logging in the `Gophish` GUI either, so this project is all around a more complete integration with more features. I will continue to incorporate `Evilginx` updates into this project for the sake of the tool and community although I am not in support of the author of the work.
 
 # A Word About Sponsorship
 
